@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTER</title>
+    <style>
+        /*################defaults#########*/
+        body{
+            margin: 0;
+            line-height: 1;
+        }
+        .container {
+            width: 100%;
+            margin: auto;
+            padding-top: 4%;
+            padding-bottom: 4%;
+            }
+
+        .row1,.row2,.row3,.row4,.row5,.row6 {
+                display: flex;
+                width: 100%;
+                flex-wrap: wrap;
+                align-items: center;
+                padding-bottom: 1%;
+                }
+        .row2,.row3{
+            padding-right: 10%;
+        }
+
+        .row::after {
+                display: block;
+                clear: both;
+                content: "";
+        }
+        .col-1 {width: 8.33%};
+        .col-2 {width: 16.66%;}
+        .col-3 {width: 25%;}
+        .col-4 {width: 33.33%;}
+        .col-5 {width: 41.66%;}
+        .col-6 {width: 50%;}
+        .col-7 {width: 58.33%;}
+        .col-8 {width: 66.66%;}
+        .col-9 {width: 75%;}
+        .col-10 {width: 83.33%;}
+        .col-11 {width: 91.66%;}
+        .col-12 {width: 100%;}
+
+        * {
+             box-sizing: border-box;
+        }
+        input[type="text"]{
+            font-size: 20px;
+            width: 300px;
+            min-width: 100px;
+            padding: 3px;
+            border-radius: 7px;
+            margin: 10px;
+        }
+        h1,h2{
+            margin: 10px;
+            text-align: center;
+        }
+        h1{
+            margin: 0;
+        }
+        button{
+            padding: 5px 10px;
+            width: 150px;
+            border-radius: 7px;
+            background-color: royalblue;
+            color: #fff;
+            font-size: 20px;
+            text-align: center;
+            display: block;
+            margin: auto;
+
+        }
+        #gradient{
+            background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(0, 255, 234));
+        }
+        .hgradient{
+            background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+        }
+        .ccc{
+            color: #fff;
+        }
+        footer{
+            background-color: #666;
+            padding-bottom: 6%;
+        }
+        footer p{
+            padding-left: 25%;
+            color: #fff;
+        }
+        h1.footsy{
+            color: #fff;
+            padding: 1%;
+        }
+        @media screen and (max-width: 700px) {
+            .row1,
+            .row2,
+            .row3,
+            .row4,
+            .row5,
+            .row6{
+                display: block;
+                align-items: center;
+            }
+            .col-3,
+            .col-6,
+            .col-4{
+                width: 100%;
+                margin: 0;
+                padding: 10px;
+            }
+            input[type="text"]{
+                width: 200px;
+                overflow: hidden;
+                margin: 0;
+            }
+            h2{
+                width: 100%;
+                margin: 0;
+                font-size: 20px;
+                text-align: left;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="hgradient"><h1 class="ccc">REGISTER PAGE</h1></div>
+    
+    <form>
+        <div class="container" id="gradient">
+                <div class="row1">
+                    <div class="col-6">
+                        <h2>E-mail</h2> 
+                    </div>
+                    <div class="col-6">
+                        <input type="text" class="name" placeholder="Username">
+                    </div>
+                </div>
+                <div class="row2">
+                    <div class="col-3 left">
+                        <h2>Password</h2>
+                    </div>
+                    <div class="col-3 mspace"> 
+                        <input type="text" class="Password" placeholder="password" >
+                    </div> 
+                    <div class="col-3">
+                        <h2>Confirm Password</h2>
+                    </div> 
+                    <div class="col-3 mspace">
+                        <input type="text" class="cPassword" placeholder="Confirm password" >
+                    </div>
+                </div>
+                <div class="row3">
+                    <div class="col-3 left">
+                        <h2>First Name</h2>
+                    </div> 
+                    <div class="col-3">
+                        <input type="text" placeholder="First Name" >
+                    </div>
+                    <div class="col-3">
+                        <h2>Last Name</h2>
+                    </div>
+                    <div class="col-3">
+                        <input type="text" placeholder="Last Name" >
+                    </div>
+                </div>  
+                <div class="row4">
+                    <div class="col-6">
+                        <h2>Age</h2>
+                    </div>
+                    <div class="col-6">
+                        <input type="text" id ="name" >
+                    </div>
+                </div>
+                <div class="row5">
+                    <div class="col-6">
+                        <h2>Phone Number</h2> 
+                    </div>
+                    <div class="col-6">
+                        <input type="text" id ="name" >
+                    </div>
+                </div>
+                <button>REGISTER</button>
+            
+        </div>
+    </form>
+    <footer>
+        <h1 class="footsy">Contact:</h1>
+        <div class="row6">
+            <div class="col-4">
+                <p>Advith Reddy</p>
+            </div>
+            <div class="col-4">
+                <p>E-mail:advithram141@gmail.com</p>
+            </div>
+            <div class="col-4">
+                <p>Phone Number:6303715520</p>
+            </div>            
+        </div>
+    </footer>
+</body>
+</html>
