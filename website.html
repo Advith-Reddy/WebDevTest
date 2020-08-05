@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap-4.5.0-dist/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="bootstrap-4.5.0-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+      .jumbotron{
+        text-align: center;
+        background-color: none;
+      }
+      .top{
+        padding-bottom: 2rem;
+      }
+      .middle{
+        background-color: #cccccc;
+        padding: 2rem;
+      }
+      .jokerbtndiv{
+        margin-top: 20px;
+      }
+      .jokerbtn{
+        background-color:  rgb(0, 152, 223);
+        color: #ffffff;
+        display: block;
+        margin: auto;
+      }
+      h5.modal-title{
+        margin: auto;
+        padding-left: 20%;
+      }
+      .loginpoup{
+        padding: 2rem;
+      }
+      .centreimg{
+        display: block;
+        margin: auto;
+      }
+      .centrebtn{
+        display: block;
+        margin: auto;
+        background-color: rgb(0, 152, 223);
+        color: #ffffff;
+        margin-top: 15px;
+        margin-bottom: 20px;
+        width: 50%;
+      }
+      .bottom{
+        padding: 2rem;
+      }
+      .bg-footer{
+        background-color: black;
+      }
+      .fa{
+        margin: 10px;
+      }
+      .fa-facebook-square,.fa-google-plus,.fa-instagram{
+        color: #ffffff;
+      }
+      .ftimg{
+        padding: 15px;
+      }
+      .end{
+        margin: auto;
+      }
+    </style>
+</head>
+<body>
+  <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">JOKER</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              More
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#">Masks</a>
+              <a class="dropdown-item" href="#">Movies</a>
+              <a class="dropdown-item" href="#">Quotes</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="top">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+              <h1 class="display-4">THE JOKER</h1>
+              <p class="lead">Let’s put a smile on that face!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col"></div>
+        <div class="col-sm-12 col-md-6">
+          <div id="fadecarousel" class="carousel slide carousel-fade" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="pics/joker1.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="pics/joker2.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="pics/joker3.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#fadecarousel" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#fadecarousel" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div> 
+        </div>
+        <div class="col"></div>
+      </div>
+    </div>
+    <!-- section 2 -->
+    <div class="middle">
+      <div class="row">
+        <div class=" col-sm-12 col-md-1 offset-md-2">
+           <img class="img-fluid middlepic" src="pics/joker4.png">
+        </div>
+        <div class="col-sm-12 col-md-6">
+          <div class="row">
+            <div class="col-sm-12">
+              <p>You wanna know how I got these scars? My father, was a drinker, 
+                and a fiend. And one night, he goes off crazier than usual. 
+                Mommy gets the kitchen knife to defend herself. He doesn't like that. 
+                Not. One. Bit. So, me watching, he takes the knife to her, 
+                laughing while he does it. He turns to me and says, "Why so serious?" 
+                Comes at me with the knife. "WHY SO SERIOUS?" He sticks the blade in my mouth... 
+                "Let's put a smile on that face."</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-12 col-md-9">
+              <p>Do you want to know why I use a knife? Guns are too quick. 
+                You can't savor all the... little emotions. In... you see, 
+                in their last moments, people show you who they really are. 
+                So in a way, I know your friends better than you ever did. 
+                Would you like to know which of them were cowards?</p>
+            </div>
+            <div class="col-sm-12 col-md-3 middlepic">
+              <img class="img-fluid" src="pics/joker5.png">
+            </div>
+          </div>
+        </div>
+        <div class="col"></div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="jokerbtndiv">
+            <button type="button" class="btn btn-lg jokerbtn" data-toggle="modal" data-target="#popupModal">
+              WHY SO SERIOUS?
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="bottom">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="row">
+            <div class="col-sm-12 col-lg-4">
+              <img class="img-fluid centreimg" src="pics/joker7.jpg">
+              <div class="row">
+                <div class="col-sm-12">
+                  <button type="button" class="btn btn-lg centrebtn" data-toggle="modal" data-target=".knock-modal-lg">Knock Knock!</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-lg-4">
+              <img class="img-fluid centreimg" src="pics/joker8.jpg">
+              <div class="row">
+                <div class="col-sm-12">
+                  <button type="button" class="btn btn-lg centrebtn" data-toggle="modal" data-target=".insane-modal-lg">Insane!</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-lg-4">
+              <img class="img-fluid centreimg" src="pics/joker9.jpg">
+              <div class="row">
+                <div class="col-sm-12">
+                  <button type="button" class="btn btn-lg centrebtn" data-toggle="modal" data-target=".burns-modal-lg">Everything Burns!</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="footer bg-footer">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-12 col-lg-3">
+            <img class="img-fluid ftimg" src="pics/joker10.png">
+          </div>
+          <div class="col-sm-12 col-lg-9 end">
+            <a href="https://www.facebook.com/" target="_blank">
+              <i class="fa fa-facebook-square fa-4x" aria-hidden="true"></i>
+            </a>
+            <a href="https://accounts.google.com/signin/v2/identifier?service=accountsettings&continue=https%3A%2F%2Fmyaccount.google.com%2F&flowName=GlifWebSignIn&flowEntry=AddSession" target="_blank">
+              <i class="fa fa-google-plus fa-4x" aria-hidden="true"></i>
+            </a>
+            <a href="https://www.instagram.com/?hl=en" target="_blank">
+              <i class="fa fa-instagram fa-4x" aria-hidden="true"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+ <!-- Modal -->
+    <div class="modal fade" id="popupModal" tabindex="-1" role="dialog" aria-labelledby="popupLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="popupcontentLabel">Joker Exclusive</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-sm-12">
+                  <img class="img-fluid" src="pics/joker6.png">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-sm-12">
+                  <div class="loginpopup">
+                    <form>
+                      <div class="form-group">
+                        <label for="forEmail1">Email address</label>
+                        <input type="email" class="form-control" id="forEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                      </div>
+                      <div class="form-group">
+                        <label for="forPassword1">Password</label>
+                        <input type="password" class="form-control" id="forPassword1" placeholder="Password">
+                      </div>
+                      <div class="form-check">
+                        <input type="checkbox" class="form-check-input" id="forCheck1">
+                        <label class="form-check-label" for="forCheck1">Remember me</label>
+                      </div>
+                      <button type="submit" class="btn btn-primary">Login</button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade knock-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/hr2iuJyUk3w"  allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade insane-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/sjf6heDux9c"  allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade burns-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/EDAA5o6xMc4"  allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <!--  Always Download latest version of Boostrap and add here-->
+    <script src="bootstrap-4.5.0-dist/js/bootstrap.min.js"></script>
+</body>
+</html>
